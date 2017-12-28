@@ -17,7 +17,7 @@ function destructivelyRemoveLastKitten(array){
 }
 
 function destructivelyRemoveFirstKitten(array){
-  array.slice(1)
+  array.shift()
   return array
 }
 
